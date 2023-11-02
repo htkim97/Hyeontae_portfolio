@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Hyeontae's PortFolio ✨</h1>
+  <h1 align="center">🙌 Hyeontae's PortFolio 🙌</h1>
   <p align="center">
  <img src="https://img.shields.io/badge/-NextJS-05122A?style=flat&logo=Next.js&logoColor=ffff"/>
     <img src="https://img.shields.io/badge/-TypeScript-05122A?style=flat&logo=Typescript&logoColor=blue"/>
