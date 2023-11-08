@@ -26,12 +26,12 @@ export default function Home() {
 
             <ul>
 
-              <li><Text size="7" weight="bold">Hyeontae Kim | 커피를 좋아하는 개발자</Text></li>
-              <br />
-              <li><Text size="2" style={{ display: "flex" }}><DrawingPinIcon />&nbsp;  프론트엔드 개발자 김현태 입니다.</Text></li>
+            <li><Text size="7" weight="bold" style={{ display: "flex" }}>안녕하세요,</Text></li>
+              <li><Text size="7" weight="bold" style={{ display: "flex" }}>프론트엔드 개발자&nbsp;<Text style={{color:"purple"}}>김현태</Text>&nbsp;입니다.</Text></li>
 
             </ul>
           </div>
+          <br />
           <br />
           <div style={{ display: "flex", justifyContent: "center" }}>
 
@@ -119,18 +119,16 @@ export default function Home() {
                 <li><Text size="5" weight="bold" color="gray">(주)인텔로이드</Text>&nbsp;<Badge color="purple">STT</Badge>&nbsp;<Badge color="blue">Voice AI</Badge></li>
                 <li style={{ float: "left" }}><Text size="1">2022.04.11 ~ 2023.10.31</Text></li>
               </ul>
-
             </Flex>
             <br />
             <Flex style={{ margin: "0 20% 0 21%" }}>
               <ul>
-                <li><Text as="p" mb="1" size="3" weight="bold" style={{display:"flex"}}><CornerBottomLeftIcon/>AICC 기업 전화 프로젝트</Text></li>
+                <li><Text as="p" mb="1" size="3" weight="bold" style={{display:"flex"}}><CornerBottomLeftIcon/>AICC 기업 전화 프로젝트 (Demo Page.)</Text></li>
                 <li>
                 <Badge color="purple">React</Badge>&nbsp;
-                <Badge color="purple">TypeScript</Badge>&nbsp;
+                <Badge color="purple">JavaScript</Badge>&nbsp;
                 <Badge color="purple">CSS</Badge>&nbsp;
                 <Badge color="purple">AXIOS</Badge>&nbsp;
-                <Badge color="blue">NestJS</Badge>&nbsp;
                 </li>
               </ul>
             </Flex>
@@ -153,7 +151,7 @@ export default function Home() {
               <br />
               <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;고객 정보 조회, 메모장, 고객 검색, 수 발신 등 다양한 기능을 갖춘 화면을 구현했으며, 사용자 경험을 향상 시키기 위해 다양한 기능을 추가했습니다.</Text></li>
                <br />
-              <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;프로젝트의 성과로 사용자는 웹 화면에서 전화를 걸며 동시에 메모를 남길 수 있어 상담 기록이 쉽게 관리됩니다.</Text></li>
+              <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;사용자는 웹 화면에서 전화를 걸며 동시에 메모를 남길 수 있어 상담 기록이 쉽게 관리됩니다.</Text></li>
               </ul>
 
             </Flex>
@@ -161,11 +159,56 @@ export default function Home() {
             <br />
             <Flex style={{ margin: "0 10% 0 22%"}}>
               <Text size="2" style={{display:"flex"}}><NotionLogoIcon/>&nbsp;
+                <a href="https://three-archer-397.notion.site/AICC-Demo-a8e32e185cc64c71b23eb12475632b30?pvs=4">AICC 기업 전화 프로젝트 (Demo Page.) </a>
+              </Text>
+              
+            </Flex>
+            <br />
+            <br />
+            <br />
+            <Flex style={{ margin: "0 20% 0 21%" }}>
+              <ul>
+                <li><Text as="p" mb="1" size="3" weight="bold" style={{display:"flex"}}><CornerBottomLeftIcon/>AICC 기업전화 관리자 페이지 (Front & Back)</Text></li>
+                <li>
+                <Badge color="purple">React</Badge>&nbsp;
+                <Badge color="purple">TypeScript</Badge>&nbsp;
+                <Badge color="purple">CSS</Badge>&nbsp;
+                <Badge color="purple">AXIOS</Badge>&nbsp;
+                <Badge color="blue">NestJS</Badge>&nbsp;
+                </li>
+              </ul>
+            </Flex>
+            <br />
+            <Flex style={{ margin: "0 20% 0 22%" }}>
+              <ul>
+                <li>
+                  <Text as="p" mb="1" size="2" weight="bold">주요 업무 및 성과 : </Text>
+                </li>
+              </ul>
+            </Flex>
+            <br />
+            <Flex align="start" style={{ margin: "0 10% 0 22%"}}>
+              <ul>
+              <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;기업전화 관리자 페이지로 회원 관리에 대한 프론트엔트 화면 및 백엔드 기능을 구현했습니다. </Text></li>
+              <br />
+              <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;React를 이용하여 구현했으며, 카테고리 4가지의 페이지로 구성했습니다. [ 회원관리, 번호관리, 포인트/결제, 통화발신료 ]</Text></li>
+              <br />
+              <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;서버와의 통신을 위해 axios를 활용하여 데이터를 주고받았으며, CORS 방지를 위해 http-proxy-middleware 모듈을 사용하였습니다.</Text></li>
+              <br />
+              <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;회원관리, 번호관리, 포인트/결제, 통화발신료 등 관리자가 회원들을 관리하기 위한 기능들을 구현했습니다.</Text></li>
+               <br />
+              </ul>
+
+            </Flex>
+            <br />
+            
+            <Flex style={{ margin: "0 10% 0 22%"}}>
+              <Text size="2" style={{display:"flex"}}><NotionLogoIcon/>&nbsp;
                 <a href="https://three-archer-397.notion.site/810df0875be2441db7862eb688cb4ef7?pvs=4">AICC 기업 전화 프로젝트</a>
               </Text>
               
             </Flex>
-
+            <br />
             <br />
             <br />
             <Flex style={{ margin: "0 20% 0 21%" }}>
@@ -199,7 +242,8 @@ export default function Home() {
               <br />
               <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;상담 내용에 대한 MP3 파일을 개별 다운로드 또는 압축 다운로드할 수 있는 기능을 구현하여 파일 관리를 용이하게 했습니다.</Text></li>
                <br />
-              <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;이 프로젝트를 통해 고객과의 상담 내용을 효과적으로 관리하고 분석할 수 있는 서비스를 제공하여 성공적인 결과를 얻었습니다.</Text></li>
+               <li><Text as="p" mb="1" size="1" style={{display:"flex"}}><CheckIcon/>&nbsp;사용자는 상담 기록을 쉽게 조회 할 수 있고, 파일 녹취파일 (MP3) 및 정보 기록 (xlsx) 들을 관리 할 수 있습니다.</Text></li>
+            
               </ul>
 
             </Flex>
