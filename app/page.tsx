@@ -9,7 +9,6 @@ import {Section, Grid, } from '@radix-ui/themes'
 
 import Profile from "./components/profile";
 import AboutMe from "./components/aboutMe";
-import Introduce from "./components/introduce";
 import Experience from "./components/experience";
 export default function Home() {
 
@@ -24,8 +23,7 @@ export default function Home() {
       <Grid columns="1">
 
           <Profile />
-          <AboutMe />    
-          <Introduce />    
+          <AboutMe />      
           <Experience />
 
      

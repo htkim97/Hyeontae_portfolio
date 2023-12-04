@@ -31,7 +31,7 @@ export default function Profile() {
                 <br />
                 <li><Text size="1" style={{ display: "flex" }}><EnvelopeClosedIcon />&nbsp; cesc231@naver.com</Text></li>
                 <br />
-                <li><Text size="1" style={{ display: "flex" }}><PersonIcon />&nbsp; 01052017704</Text></li>
+                <li><Text size="1" style={{ display: "flex" }}><PersonIcon />&nbsp; 010-5201-7704</Text></li>
               </ul>
               <br />
               <br />

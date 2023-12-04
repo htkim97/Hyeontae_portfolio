@@ -483,6 +483,21 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.mt-10 {
+  margin-top: 2.5rem;
+}
+.mt-16 {
+  margin-top: 4rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
 .flex {
   display: flex;
 }
@@ -500,6 +515,9 @@ video {
 }
 .gap-16 {
   gap: 4rem;
+}
+.p-2 {
+  padding: 0.5rem;
 }
 
 html{
