@@ -15,7 +15,7 @@
 
 - 서비스 : 웹 포트폴리오
 - 개발 환경 : visual code
-- 개발 언어 : TypeScript, JavaScript
+- 기술 스택 : TypeScript, JavaScript, TailWind, NextJS
 - 외부 자원 : Radix UI, Radix Icon
 - 배포 : Vercel
 
