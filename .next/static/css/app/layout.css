@@ -498,24 +498,11 @@ video {
 .items-center {
   align-items: center;
 }
-.justify-between {
-  justify-content: space-between;
-}
-.gap-4 {
-  gap: 1rem;
-}
-.gap-40 {
-  gap: 10rem;
-}
 .gap-16 {
   gap: 4rem;
 }
-.p-4 {
-  padding: 1rem;
-}
 
-html,
-body {
+html{
  height: 100vh;
  overflow-y: auto;
 

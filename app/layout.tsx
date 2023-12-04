@@ -15,12 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <body lang="en">
       <Theme>
 
         <main className="flex flex-col w-full mx-auto max-w-screen-2xl">{children}</main>
       </Theme>
 
-    </html>
+    </body>
   );
 }
