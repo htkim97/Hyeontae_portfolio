@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <Theme>
 
-        <main>{children}</main>
+        <main className="flex flex-col w-full mx-auto max-w-screen-2xl">{children}</main>
       </Theme>
 
     </html>
